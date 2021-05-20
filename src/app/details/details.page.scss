@@ -1,0 +1,23 @@
+// moves card
+.moves-card {
+
+    // Moves Header
+    .moves-header {
+        color: white;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #3880ff;
+        font-size: 20px;
+    }
+
+    // MOves Title
+    .moves-title {
+    }
+
+    // Moves Subtitle
+    .moves-subtitle {
+        opacity: 0.9;
+    }
+}

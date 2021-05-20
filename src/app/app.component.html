@@ -1,0 +1,25 @@
+<ion-app>
+  <!-- <ion-router-outlet></ion-router-outlet> -->
+  <ion-split-pane contentId="menu-content" when="xs" [disabled]="true" (ionSplitPaneVisible)="onSplitPaneVisible(event)">
+    <ion-menu contentId="menu-content" side="start" type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Pokedex</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle auto-hide="true">
+          <ion-item [routerLink]="['tabs/tabs/home']">
+            <ion-label>Pokemons</ion-label>
+          </ion-item>
+          <ion-item [routerLink]="['tabs/tabs/terms']">
+            <ion-label>Terms</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="menu-content" main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
