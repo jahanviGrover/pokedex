@@ -1,0 +1,22 @@
+// Main Tabs
+.main-tabs {
+
+    // Ion Tab Bar
+    ion-tab-bar {
+        --background: #DC0A2C;
+        --color: rgba(255, 255, 255, 0.9);
+        --color-focused: white;
+        --color-selected: white;
+    }
+
+
+
+    // Ion Tab Button
+    ion-tab-button {
+        border-bottom: 4px solid transparent;
+
+        &.tab-selected {
+            border-bottom: 4px solid rgba(white, 0.9);
+        }
+    }
+}

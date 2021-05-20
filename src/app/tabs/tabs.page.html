@@ -1,5 +1,5 @@
 
-<ion-tabs>
+<ion-tabs class="main-tabs">
   <ion-header>
     <ion-toolbar color="primary">
       <ion-buttons slot="start">
@@ -10,14 +10,14 @@
       </ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="home">
-      <ion-icon name="flash"></ion-icon>
+  <ion-tab-bar slot="top">
+    <ion-tab-button tab="home" layout="icon-start">
+      <ion-icon name="logo-reddit"></ion-icon>
       <ion-label>Pokemons</ion-label>
     </ion-tab-button>
-    <ion-tab-button tab="terms">
-      <ion-icon name="apps"></ion-icon>
-      <ion-label>Terms</ion-label>
+    <ion-tab-button tab="terms" layout="icon-start">
+      <ion-icon name="pencil"></ion-icon>
+      <ion-label>Feedback</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs>

@@ -1,0 +1,28 @@
+// Menu Content Wrapper
+.menu-content-wrapper {
+
+    // Ion Avatar
+    ion-avatar {
+        height: 120px;
+        width: 120px;
+        margin: 30px auto 15px;
+    }
+
+    // Title Box
+    .title-box {
+        text-align: center;
+
+        .label {
+            color: #999999;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .name {
+            font-size: 24px;
+            color: black;
+        }
+    }
+}

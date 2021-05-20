@@ -1,15 +1,22 @@
+
+// details card
+.details-card {
+    border-top: 7px solid #DC0A2C;
+}
+
 // moves card
 .moves-card {
 
     // Moves Header
     .moves-header {
-        color: white;
+        color: #DC0A2C;
         padding: 16px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #3880ff;
+        background-color: rgba(#DC0A2C, 0.1);
         font-size: 20px;
+        border-bottom: 6px solid #DC0A2C;
     }
 
     // MOves Title

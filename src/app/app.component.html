@@ -3,12 +3,22 @@
   <ion-split-pane contentId="menu-content" when="xs" [disabled]="true" (ionSplitPaneVisible)="onSplitPaneVisible(event)">
     <ion-menu contentId="menu-content" side="start" type="overlay">
       <ion-header>
-        <ion-toolbar>
+        <ion-toolbar color="primary">
           <ion-title>Pokedex</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-content>
-        <ion-list>
+        <div class="menu-content-wrapper">
+          <ion-avatar>
+            <img src="../assets/icon/woman.svg">
+          </ion-avatar>
+          <div class="title-box">
+            <div class="label">Made By</div>
+            <div class="name">Jahanvi Grover</div>
+          </div>
+
+        </div>
+        <!-- <ion-list>
           <ion-menu-toggle auto-hide="true">
           <ion-item [routerLink]="['tabs/tabs/home']">
             <ion-label>Pokemons</ion-label>
@@ -17,7 +27,7 @@
             <ion-label>Terms</ion-label>
           </ion-item>
         </ion-menu-toggle>
-        </ion-list>
+        </ion-list> -->
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="menu-content" main></ion-router-outlet>
